@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ES2022",
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "lib": [ "esnext" ],
+    "types": [ "node" ],
+    "baseUrl": "./",
+  },
+}
