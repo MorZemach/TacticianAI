@@ -62,10 +62,6 @@ server.post('/ai', async (request, reply) => {
   }
 });
 
-// server.get('/ai', async (request, reply) => {
-//     return text;
-// })
-
 server.listen({ port }, (err, address) => {
   if (err) {
     server.log.error(err);
